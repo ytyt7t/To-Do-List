@@ -15,7 +15,7 @@
 .todo
 {
   width: 100%;
-  max-width: 380px;
+  max-width: 400px;
   background: #636161;
   margin: 100px auto 20px;
   padding: 40px 30px 70px;
@@ -39,8 +39,8 @@
     align-items: center;
     justify-content: space-between;
     background: #edeef0;
-    width:250px;
     border-radius: 30px;
+    width: 250px;
     padding-left: 20px;
     margin-bottom: 25x;
 }
@@ -60,8 +60,10 @@ button
     background: #ff5945;
     color: #ffffff;
     font-size: 16px;
+    text-align: center;
     cursor: pointer;
     border-radius: 40px;
+    justify-content: center;
 }
 ul li
 {
