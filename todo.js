@@ -1,13 +1,12 @@
 const inputBox=document.getElementById("input-box");
-const listConatiner=document.getElementById("listcontainer");
-
+const listConatiner=document.getElementById("listcontainer"); 
 function addTask()
 {
     if(inputBox.value === '')
     {
         alert("you must write something !");
     }
-    else{
+       else{
         let li=document.createElement("li");
         li.innerHTML = inputBox.value;
         listConatiner.appendChild(li);
@@ -27,8 +26,7 @@ listConatiner.addEventListener("click",function(e)
     {
         e.target.parentElement.remove();
     }
-}.false);
-
+}, false);
 function saveData()
 {
    localStorage.setItem("data",list-Conatiner.innerHTML)
